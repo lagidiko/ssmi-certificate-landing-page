@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Download your Six Sigma Management Institute Europe certificate." />
+    <title>Certificate download — SSMI Europe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <img class="logo" src="../assets/logo.png" alt="Six Sigma Management Institute Europe" width="480" height="120" />
+      </header>
+
+      <section class="card" aria-labelledby="card-title">
+        <h1 id="card-title" class="title">Download your Certificate</h1>
+        <p class="lede">
+          Enter your name and surname as they appear on your registration. Your PDF will open or download automatically.
+        </p>
+
+        <form id="download-form" class="form" novalidate>
+          <div class="fields">
+            <label class="field">
+              <span class="label">Name</span>
+              <input
+                type="text"
+                name="firstName"
+                autocomplete="given-name"
+                required
+                maxlength="120"
+                placeholder="e.g. Maria"
+              />
+            </label>
+            <label class="field">
+              <span class="label">Surname</span>
+              <input
+                type="text"
+                name="lastName"
+                autocomplete="family-name"
+                required
+                maxlength="120"
+                placeholder="e.g. Rossi"
+              />
+            </label>
+          </div>
+
+          <p id="form-message" class="message" role="status" aria-live="polite"></p>
+
+          <button type="submit" class="submit" id="submit-btn">
+            <span class="submit-label">Download</span>
+            <span class="submit-spinner" hidden aria-hidden="true"></span>
+          </button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p>Six Sigma Management Institute Europe · Dr. Mikel J. Harry</p>
+      </footer>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
