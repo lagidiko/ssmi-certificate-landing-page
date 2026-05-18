@@ -40,6 +40,18 @@ body {
   justify-content: center;
 }
 
+.logo-link {
+  display: inline-flex;
+  line-height: 0;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.logo-link:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}
+
 .logo {
   width: min(100%, 440px);
   height: auto;
