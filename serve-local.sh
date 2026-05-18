@@ -5,7 +5,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
 
 PORT="${PORT:-8080}"
-URL="http://127.0.0.1:${PORT}/certificatedownload/"
+URL="http://127.0.0.1:${PORT}/"
 
 cleanup() {
   if [[ -n "${SERVER_PID:-}" ]] && kill -0 "$SERVER_PID" 2>/dev/null; then

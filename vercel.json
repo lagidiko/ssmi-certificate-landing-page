@@ -1,9 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "/certificatedownload/",
-      "permanent": false
+      "source": "/certificatedownload",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/certificatedownload/",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

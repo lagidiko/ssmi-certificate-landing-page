@@ -1,5 +1,5 @@
-const MANIFEST_URL = new URL("../data/certificates.json", import.meta.url);
-const CERTIFICATES_BASE = new URL("../certificates/", import.meta.url);
+const MANIFEST_URL = new URL("./data/certificates.json", import.meta.url);
+const CERTIFICATES_BASE = new URL("./certificates/", import.meta.url);
 
 /** @type {{ entries: Array<{ firstName: string; lastName: string; file: string }> } | null} */
 let cache = null;

@@ -73,6 +73,7 @@ body {
   font-size: clamp(1.35rem, 4vw, 1.65rem);
   letter-spacing: 0.02em;
   color: var(--blue);
+  text-align: center;
 }
 
 .lede {
